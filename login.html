@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sign in and Sign up Form</title>
+    <!-- Linking with css -->
+    <link rel="stylesheet" href="styles2.css"/>
+</head>
+
+<body>
+   
+    <!-- Login Page -->
+    <div class="page">
+        <!-- form -->
+        <div class="forms-page">
+            <!-- Sign in form -->
+            <div class="signin-signup">
+                <form action="#" class="sign-in-form">
+                    <!-- Title of the form -->
+                    <h2 class="title">Sign in</h2>
+                    <!-- User details -->
+                    <div class="input-data">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username" />
+                    </div>
+                    <div class="input-data">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" />
+                    </div>
+                    <input type="submit" class="btn solid" value="login" />
+                    <!-- Social Media handles -->
+                    <p class="social-text">Or Sign in with social platforms</p>
+                    <div class="social-media">
+                        <a href="#" class="media-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="media-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="media-icon">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="#" class="media-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </form>
+                <!-- Close of Sign in form -->
+            </div>
+            <!-- Sign up form -->
+            <div class="signup-signup">
+                <form action="#" class="sign-up-form">
+                    <!-- Title of the form -->
+                    <h2 class="title">Sign Up</h2>
+                    <!-- User details -->
+                    <div class="input-data">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username" />
+                    </div>
+                    <div class="input-data">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="Email" />
+                    </div>
+                    <div class="input-data">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" />
+                    </div>
+                    <input type="submit" class="btn solid" value="login" />
+                    <!-- Social Media handles -->
+                    <p class="social-text">Or Sign Up with social platforms</p>
+                    <div class="social-media">
+                        <a href="#" class="media-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="media-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="media-icon">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="#" class="media-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </form>
+                <!-- Close of Sign up form -->
+            </div>
+        </div>
+        <!-- Display of Panels -->
+        <div class="panels-page">
+            <!-- Sign Up page in Left panel -->
+            <div class="panel left-panel">
+                <div class="info">
+                    <h3>New Here?</h3>
+                    <p>
+                        Enter your details and start your journey with us!
+                    </p>
+                    <!-- Sign up button -->
+                    <button class="btn transparent" id="sign-up-button">Sign Up</button>
+                </div>
+            </div>
+            <!-- Sign in page in right panel -->
+            <div class="panel right-panel">
+                <div class="info">
+                    <h3>One of us</h3>
+                    <p>
+                        Knowledge is that which liberates
+                    </p>
+                    <!-- Sign in button -->
+                    <button class="btn transparent" id="sign-in-button">Sign In</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Linking with Js -->
+    <script src="app.js"></script>
+
+</body>
+</html>
