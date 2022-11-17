@@ -1,1 +1,0 @@
-# GDSC_DEVSPRINT_Educon
